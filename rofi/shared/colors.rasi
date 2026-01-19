@@ -1,0 +1,16 @@
+* {
+/* Gruvbox Palette */
+background:                  #28282880;
+background-alt:              #3c3836;
+foreground:                  #ebdbb2;
+selected:                    #fe8019; /* The Orange Bar */
+active:                      #b8bb26;
+urgent:                      #fb4934;
+
+/* ... other variables ... */
+
+/* --- THE FIX --- */
+selected-normal-background:  @selected;
+/* This MUST be a very dark color so it stands out on the bright orange */
+selected-normal-foreground:  #1d2021;
+}
